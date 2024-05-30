@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>ONZ</title>
+<link rel="stylesheet" href="./css/styling.css">
+
+</head>
+
+<body>
+<div id="page">
+
+	<div id="sidebar">
+		<img src="https://oyintanda-zongwana.github.io/swegga-img/swegga.jpg" alt="" >
+	</div>
+	<div id="main">
+		<div class="nav-banner">
+		<div id="banner">
+			<img src="https://oyintanda-zongwana.github.io/swegga-img/delivery.gif" alt="" height="85" width="300">
+		</div>
+		<div id="navigation">
+			<img src="https://oyintanda-zongwana.github.io/swegga-img/links.gif" alt="" height="56" width="560" usemap="#navmap">
+			<map name="navmap">
+				<area shape="rect" coords="10,5,95,35" href="order.html" alt="Home" target="_blank">
+				<area shape="rect" coords="105,5,190,35" href="services.html" alt="Services" target="_blank">
+				<area shape="rect" coords="205,5,300,35" href="products.html" alt="Products" target="_blank">
+				<area shape="rect" coords="310,5,440,35" href="orderStatus.html" alt="Order Status" target="_blank">
+				<area shape="rect" coords="450,5,555,35" href="contactUs.htm" alt="Contact Us" target="_blank">
+			</map>
+		</div>
+	    </div>
+		
+			<form name="orders">
+				<table id="table">
+					<caption>Product Summary</caption>
+					<thead>
+						<tr>
+							<th>Product</th>
+							<th>Size</th>
+							<th>Color</th>
+							<th>Price</th>
+							<th>Quantity</th>
+							<th>Total Price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="female.html">Female Ski Jackets</a></td>
+							<td>
+								<select name="femaleSize">
+									<option>Small</option>
+									<option>Medium</option>
+									<option>Large</option>
+								</select>
+							</td>
+							<td>
+								<select name="femaleColor">
+									<option>Red</option>
+									<option>Pink</option>
+									<option>Black</option>
+								</select>
+							</td>
+							<td>R150.95</td>
+							<td>
+								<input type="text" id="femaleQty" name="femaleQty" size="4">
+							</td>
+							<td id="femaleTotal">R0.00</td>
+						</tr>
+						<tr>
+							<td><a href="male.html">Male Ski Jackets</a></td>
+							<td>
+								<select name="maleSize">
+									<option>Small</option>
+									<option>Medium</option>
+									<option>Large</option>
+								</select>
+							</td>
+							<td>
+								<select name="maleColor">
+									<option>Red</option>
+									<option>Blue</option>
+									<option>White</option>
+								</select>
+							</td>
+							<td>R180.95</td>
+							<td>
+								<input type="text" id="maleQty" name="maleQty" size="4">
+							</td>
+							<td id="maleTotal">R0.00</td>
+						</tr>
+						<tr>
+							<td colspan="5">Click to confirm and process your order</td>
+							<td>
+								<button id="btn" type="button" >Total Price</button>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5"><strong>Total Price for the Order:</strong></td>
+							<td id="totalPrice">R0.00</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+	</div>
+
+	
+
+	
+
+
+	<footer>
+		<p class="copyright">	&#169;  2024 Swegga Fashion/ Oyintanda Zongwana</p>
+	</footer>
+</div>
+<script src="./Script/script.js"></script>
+</body>
+</html>
